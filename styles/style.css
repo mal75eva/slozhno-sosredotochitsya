@@ -51,6 +51,12 @@
   border-inline-start: 1px solid var(--decorative-color, #FF0070);
 }
 
+.decorative-element {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 .decorative-element::before {
   content: 'REC';
   position: absolute;
@@ -143,7 +149,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--main-text-color);
 }
 
 .link:focus {
@@ -237,7 +243,7 @@
   font-weight: 700;
 }
 
-@media (width >= 768px) {
+@media (width >= 600px) {
   .page {
     padding: 0px 20px;
   }
@@ -332,6 +338,7 @@
   }
 
   .picture__item {
+    width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
