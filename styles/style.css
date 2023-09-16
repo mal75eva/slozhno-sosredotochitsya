@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--bg-color, #000028);
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, monospace);
   font-size: var(--min-font-size, 18px);
   color: var(--main-text-color, #F1B2CE);
   background-image: var(--bg-image);

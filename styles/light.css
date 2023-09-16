@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-font: 'IBM Plex mono', sans-serif;
+  --main-font: 'IBM Plex mono', monospace;
   --main-text-size: 18px;
   --main-text-color: #353430;
   --title-color: #FFC2E6;
@@ -39,7 +39,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --main-font: 'IBM Plex mono', sans-serif;
+  --main-font: 'IBM Plex mono', monospace;
   --main-text-size: 18px;
   --main-text-color: #353430;
   --title-color: #FFC2E6;
@@ -58,11 +58,11 @@
   }
   
   @media (width <= 768px) {
-    .theme_light .footer__title {
+    .footer__title {
       text-shadow: 2px 2px 0px var(--accent-color, #ff8dcb);
     }
   
-    .theme_light .header__title {
+    .header__title {
       text-shadow: 4px 4px 0px var(--accent-color, #ff8dcb);
     }
   }
